@@ -192,3 +192,25 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# --- Kubernetes/Helm ---
+charts/
+*.tgz
+*.lock
+values*.yaml
+secrets.yaml
+secrets/*.yaml
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# --- Node (if needed) ---
+node_modules/
+npm-debug.log
+
+# --- System files ---
+.DS_Store
+Thumbs.db
