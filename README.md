@@ -159,6 +159,10 @@ kubectl port-forward -n monitoring $POD_NAME 3000
 ![CloudWatch IAM](IMAGES/cloudwatch-exporter-iam-setup.jpg)
 ![CloudFormation](IMAGES/cloudwatch-exporter-cloudformation-console.jpg)
 
+
+---
+ For detailed error handling and debugging steps—including IAM misconfigurations, PVC binding failures, and exporter issues—see [troubleshooting-cloudwatch-grafana-ebs.md](troubleshooting-cloudwatch-grafana-ebs.md). These real-world errors demonstrate hands-on problem-solving under realistic DevOps conditions.
+
 ---
 
 ## 📽️ YouTube Video
