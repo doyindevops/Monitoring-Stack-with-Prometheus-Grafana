@@ -1,0 +1,13 @@
+# cluster/eksctl-cluster.yaml
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: monitoring-cluster
+  region: us-east-1
+
+nodeGroups:
+  - name: ng-monitoring
+    instanceType: t3.medium
+    desiredCapacity: 2
+    volumeSize: 20
